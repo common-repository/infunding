@@ -1,0 +1,1708 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Crowdfunding\n"
+"POT-Creation-Date: 2016-08-12 16:24+0700\n"
+"PO-Revision-Date: 2016-08-12 16:24+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: infunding.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/classes/inFundingLog.php:133
+msgid "Log has been delete"
+msgstr ""
+
+#: includes/classes/inFundingLog.php:143
+#, php-format
+msgid "Success delete logs with id: <strong>%s</strong>"
+msgstr ""
+
+#: includes/classes/inFundingLog.php:150
+msgid "All log has been delete"
+msgstr ""
+
+#: includes/classes/inFundingMember.php:169
+#, php-format
+msgid "Can't remove Donor with id: <strong>%s</strong>. Because:"
+msgstr ""
+
+#: includes/classes/inFundingMember.php:171
+msgid "It used in some orders"
+msgstr ""
+
+#: includes/classes/inFundingMember.php:180
+msgid "Donor has been delete"
+msgstr ""
+
+#: includes/classes/inFundingMember.php:208
+#, php-format
+msgid ""
+"Can't delete donor with id: <strong>%s</strong> because it used by some "
+"orders."
+msgstr ""
+
+#: includes/classes/inFundingMember.php:212
+#, php-format
+msgid "Success delete donors with id: <strong>%s</strong>"
+msgstr ""
+
+#: includes/classes/inFundingMember.php:278 includes/views/settings.php:253
+#: includes/views/settings.php:432
+msgid "Yes"
+msgstr ""
+
+#: includes/classes/inFundingMember.php:278 includes/views/settings.php:253
+#: includes/views/settings.php:431
+msgid "No"
+msgstr ""
+
+#: includes/classes/inFundingMember.php:284
+msgid "Not set"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:36
+msgid "Campaign Images"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:39
+msgid "Campaign Detail"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:147
+msgid "Add new images"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:168
+msgid "Start date"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:175
+msgid "Campaign start date (m/d/Y). Ex: "
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:180
+msgid "End date"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:187
+msgid "Campaign end date (m/d/Y). Ex: "
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:192
+msgid "Address"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:199
+msgid "Campaign address"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:204
+msgid "Map latitude"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:211
+msgid "Map Latitude Position. If not set, map position get by address"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:216
+msgid "Map Longitude"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:220
+msgid "Map Longitude Position. If not set, map position get by address"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:225 includes/utility.php:873
+#: themes/campaign.php:79 themes/list_campaigns-style2.php:89
+msgid "Goal"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:231
+#: includes/classes/inFundingMetaBox.php:243
+msgid "Input a number"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:232
+msgid "Goal of campaign"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:237
+msgid "Current"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:244
+msgid "The current amount of the campaign"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:249 includes/views/settings.php:117
+msgid "Currency"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:256
+msgid "Current value of campaign"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:261
+msgid "Allow Register Volunteer"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:272
+msgid "Allow register volunteer for this campaign"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:277
+msgid "External Donation Link"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:283
+msgid "Input a valid link"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:284
+msgid ""
+"Enter your external donation link from external donation websites "
+"(justgiving.com, raisemoney.com)"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:289 includes/views/settings.php:416
+msgid "Paypal email"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:295
+msgid "Input a valid email"
+msgstr ""
+
+#: includes/classes/inFundingMetaBox.php:296
+msgid "Paypal email is used to receive donations from this campaign."
+msgstr ""
+
+#: includes/classes/inFundingOrder.php:192
+msgid "Insert success"
+msgstr ""
+
+#: includes/classes/inFundingOrder.php:217
+msgid "Update success"
+msgstr ""
+
+#: includes/classes/inFundingPaging.php:143
+#: includes/classes/inFundingPaging.php:145
+msgid "Prev page"
+msgstr ""
+
+#: includes/classes/inFundingPaging.php:150
+#: includes/classes/inFundingPaging.php:152
+msgid "Next page"
+msgstr ""
+
+#: includes/function.admin.php:26 includes/views/member.list.php:26
+#: includes/views/volunteer.list.php:26
+msgid "Members"
+msgstr ""
+
+#: includes/function.admin.php:27
+msgid "Add Member"
+msgstr ""
+
+#: includes/function.admin.php:28
+msgid "Edit Member"
+msgstr ""
+
+#: includes/function.admin.php:30
+msgid "Volunteers"
+msgstr ""
+
+#: includes/function.admin.php:31
+msgid "Add Volunter"
+msgstr ""
+
+#: includes/function.admin.php:32
+msgid "Edit Volunter"
+msgstr ""
+
+#: includes/function.admin.php:34
+msgid "Donates"
+msgstr ""
+
+#: includes/function.admin.php:35
+msgid "Edit donate"
+msgstr ""
+
+#: includes/function.admin.php:36
+msgid "Donate detail"
+msgstr ""
+
+#: includes/function.admin.php:38 includes/views/logs.list.php:26
+msgid "Logs"
+msgstr ""
+
+#: includes/function.admin.php:39
+msgid "Log view"
+msgstr ""
+
+#: includes/function.admin.php:41
+msgid "Settings"
+msgstr ""
+
+#: includes/function.admin.php:191
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: includes/function.admin.php:192
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: includes/function.admin.php:193 includes/function.admin.php:366
+msgid "Categories"
+msgstr ""
+
+#: includes/function.admin.php:194 includes/utility.php:862
+msgid "All Categories"
+msgstr ""
+
+#: includes/function.admin.php:195
+msgid "Parent Category"
+msgstr ""
+
+#: includes/function.admin.php:196
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/function.admin.php:197
+msgid "New Category Name"
+msgstr ""
+
+#: includes/function.admin.php:198
+msgid "Add New Category"
+msgstr ""
+
+#: includes/function.admin.php:199
+msgid "Edit Category"
+msgstr ""
+
+#: includes/function.admin.php:200
+msgid "Update Category"
+msgstr ""
+
+#: includes/function.admin.php:201
+msgid "Separate categories with commas"
+msgstr ""
+
+#: includes/function.admin.php:202
+msgid "Search categories"
+msgstr ""
+
+#: includes/function.admin.php:203
+msgid "Add or remove categories"
+msgstr ""
+
+#: includes/function.admin.php:204
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: includes/function.admin.php:205 includes/function.admin.php:248
+msgid "Not Found"
+msgstr ""
+
+#: includes/function.admin.php:234
+msgctxt "Taxonomy General Name"
+msgid "Tags"
+msgstr ""
+
+#: includes/function.admin.php:235
+msgctxt "Taxonomy Singular Name"
+msgid "Tag"
+msgstr ""
+
+#: includes/function.admin.php:236 themes/campaign.php:194
+msgid "Tags"
+msgstr ""
+
+#: includes/function.admin.php:237
+msgid "All Tags"
+msgstr ""
+
+#: includes/function.admin.php:238
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/function.admin.php:239
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/function.admin.php:240
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/function.admin.php:241
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/function.admin.php:242
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/function.admin.php:243
+msgid "Update Tag"
+msgstr ""
+
+#: includes/function.admin.php:244
+msgid "Separate tags with commas"
+msgstr ""
+
+#: includes/function.admin.php:245
+msgid "Search tags"
+msgstr ""
+
+#: includes/function.admin.php:246
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/function.admin.php:247
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/function.admin.php:277
+msgctxt "Post Type General Name"
+msgid "Campaigns"
+msgstr ""
+
+#: includes/function.admin.php:278
+msgctxt "Post Type Singular Name"
+msgid "Campaign"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/function.admin.php:279
+msgid "Crowdfunding"
+msgstr ""
+
+#: includes/function.admin.php:280
+msgid "Parent Campaign:"
+msgstr ""
+
+#: includes/function.admin.php:281
+msgid "All Campaigns"
+msgstr ""
+
+#: includes/function.admin.php:282
+msgid "View Campaign"
+msgstr ""
+
+#: includes/function.admin.php:283
+msgid "Add New Campaign"
+msgstr ""
+
+#: includes/function.admin.php:284 includes/views/member.list.php:27
+#: includes/views/payment.list.php:27 includes/views/volunteer.list.php:27
+msgid "Add New"
+msgstr ""
+
+#: includes/function.admin.php:285
+msgid "Edit Item"
+msgstr ""
+
+#: includes/function.admin.php:286
+msgid "Update Item"
+msgstr ""
+
+#: includes/function.admin.php:287
+msgid "Search Item"
+msgstr ""
+
+#: includes/function.admin.php:288
+msgid "Not found"
+msgstr ""
+
+#: includes/function.admin.php:289
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/function.admin.php:298
+msgid "infunding"
+msgstr ""
+
+#: includes/function.admin.php:299
+msgid "Inwave Crowdfunding"
+msgstr ""
+
+#: includes/function.admin.php:365 includes/utility.php:871
+#: includes/views/settings.php:501 includes/views/settings.php:542
+#: includes/views/settings.php:584
+msgid "Title"
+msgstr ""
+
+#: includes/function.admin.php:367
+msgid "Funded"
+msgstr ""
+
+#: includes/function.admin.php:368
+msgid "Date"
+msgstr ""
+
+#: includes/function.admin.php:369 includes/function.front.php:139
+#: includes/views/payment.edit.php:73 includes/views/payment.list.php:85
+#: includes/views/payment.view.php:73 includes/views/settings.php:441
+#: includes/views/settings.php:469 includes/views/volunteer.edit.php:179
+msgid "Status"
+msgstr ""
+
+#: includes/function.admin.php:381
+msgid "Unlimited Goal"
+msgstr ""
+
+#: includes/function.admin.php:381
+msgid "Unlimited"
+msgstr ""
+
+#: includes/function.admin.php:385 themes/campaign.php:190
+#: themes/list_campaigns-style1.php:92
+msgid "In Progress"
+msgstr ""
+
+#: includes/function.admin.php:385 themes/campaign.php:190
+msgid "Upcoming"
+msgstr ""
+
+#: includes/function.admin.php:385 themes/campaign.php:190
+msgid "Ended"
+msgstr ""
+
+#: includes/function.admin.php:499 includes/function.admin.php:598
+#, php-format
+msgid "No Member found with id = <strong>%d</strong>"
+msgstr ""
+
+#: includes/function.admin.php:505 includes/function.admin.php:545
+#: includes/function.admin.php:604 includes/function.admin.php:645
+#: includes/function.admin.php:738 includes/function.admin.php:758
+#: includes/function.admin.php:892 includes/function.admin.php:936
+#: includes/function.admin.php:953
+msgid "No id set or id invalid"
+msgstr ""
+
+#: includes/function.admin.php:525 includes/function.admin.php:625
+msgid "Can't update member: "
+msgstr ""
+
+#: includes/function.admin.php:542 includes/function.admin.php:642
+msgid "Donor has been remove"
+msgstr ""
+
+#: includes/function.admin.php:566 includes/function.admin.php:666
+#: includes/function.admin.php:971 includes/function.admin.php:990
+msgid "Unknown error"
+msgstr ""
+
+#: includes/function.admin.php:569 includes/function.admin.php:669
+#: includes/function.admin.php:908 includes/function.admin.php:974
+msgid "Please select row(s) to delete"
+msgstr ""
+
+#: includes/function.admin.php:753
+#, php-format
+msgid "No Order found with id = <strong>%d</strong>"
+msgstr ""
+
+#: includes/function.admin.php:816 includes/function.admin.php:817
+msgid "Update order "
+msgstr ""
+
+#: includes/function.admin.php:819 includes/function.admin.php:820
+#: includes/function.admin.php:822 includes/function.admin.php:823
+msgid "Order "
+msgstr ""
+
+#: includes/function.admin.php:825 includes/function.admin.php:826
+msgid "Can't update order "
+msgstr ""
+
+#: includes/function.admin.php:855
+msgid "An email had been sent to custommer."
+msgstr ""
+
+#: includes/function.admin.php:876
+msgid "No order math to kill"
+msgstr ""
+
+#: includes/function.admin.php:890
+msgid "Order has been remove"
+msgstr ""
+
+#: includes/function.admin.php:906
+msgid "All selected order(s) has been delete"
+msgstr ""
+
+#: includes/function.admin.php:950
+msgid "Log has been remove"
+msgstr ""
+
+#: includes/function.admin.php:1012
+msgid "View donation info"
+msgstr ""
+
+#: includes/function.admin.php:1025 includes/function.front.php:152
+#: includes/views/payment.edit.php:78 includes/views/payment.list.php:57
+#: includes/views/payment.list.php:134 includes/views/payment.view.php:79
+msgid "Pending"
+msgstr ""
+
+#: includes/function.admin.php:1028 includes/function.front.php:155
+#: includes/views/payment.edit.php:79 includes/views/payment.list.php:137
+#: includes/views/payment.view.php:82
+msgid "Paid"
+msgstr ""
+
+#: includes/function.admin.php:1031 includes/function.front.php:158
+#: includes/function.front.php:438 includes/views/payment.edit.php:80
+#: includes/views/payment.list.php:59 includes/views/payment.list.php:140
+#: includes/views/payment.view.php:85
+msgid "Cancel"
+msgstr ""
+
+#: includes/function.admin.php:1034 includes/function.front.php:161
+#: includes/views/payment.edit.php:81 includes/views/payment.list.php:60
+#: includes/views/payment.list.php:143 includes/views/payment.view.php:88
+msgid "Onhold"
+msgstr ""
+
+#: includes/function.admin.php:1058 includes/views/volunteer.edit.php:192
+msgid "Accepted"
+msgstr ""
+
+#: includes/function.front.php:41 includes/function.front.php:79
+#: includes/themes/single-infunding.php:12 themes/list_campaigns.php:62
+msgid "No theme was found"
+msgstr ""
+
+#: includes/function.front.php:99
+msgid "No find order"
+msgstr ""
+
+#: includes/function.front.php:102
+msgid "No order ID set"
+msgstr ""
+
+#: includes/function.front.php:135
+msgid "Order Code"
+msgstr ""
+
+#: includes/function.front.php:136 includes/views/payment.list.php:83
+msgid "Money"
+msgstr ""
+
+#: includes/function.front.php:137 includes/views/payment.edit.php:65
+#: includes/views/payment.list.php:84 includes/views/payment.view.php:65
+msgid "Note"
+msgstr ""
+
+#: includes/function.front.php:138 includes/views/payment.edit.php:56
+#: includes/views/payment.view.php:57
+msgid "Paid Time"
+msgstr ""
+
+#: includes/function.front.php:148 includes/views/payment.edit.php:59
+#: includes/views/payment.view.php:60
+msgid "Unpaid"
+msgstr ""
+
+#: includes/function.front.php:170
+msgid "You haven't order"
+msgstr ""
+
+#: includes/function.front.php:193
+msgid "Accourt Info"
+msgstr ""
+
+#: includes/function.front.php:194
+msgid "Edit information"
+msgstr ""
+
+#: includes/function.front.php:195
+msgid "Order List"
+msgstr ""
+
+#: includes/function.front.php:199
+msgid "You don't have permission to access this page. Please <a href=\""
+msgstr ""
+
+#: includes/function.front.php:276
+msgid "Donate Details"
+msgstr ""
+
+#: includes/function.front.php:288
+msgid "Donation Amount*"
+msgstr ""
+
+#: includes/function.front.php:291
+msgid "Input the number. eg: 123"
+msgstr ""
+
+#: includes/function.front.php:297
+msgid "Payment Method*"
+msgstr ""
+
+#: includes/function.front.php:301
+msgid "Paypal"
+msgstr ""
+
+#: includes/function.front.php:304
+msgid "Offline Payment"
+msgstr ""
+
+#: includes/function.front.php:307
+msgid "Please enable one payment method in plugin settings"
+msgstr ""
+
+#: includes/function.front.php:314
+msgid "Campaign*"
+msgstr ""
+
+#: includes/function.front.php:317
+msgid "Select Campaign"
+msgstr ""
+
+#: includes/function.front.php:323 themes/volunteer_register.php:118
+msgid "Your Message"
+msgstr ""
+
+#: includes/function.front.php:333
+msgid "Anonymous Donation?"
+msgstr ""
+
+#: includes/function.front.php:336
+msgid "Check this box to hide personal info in our donators list"
+msgstr ""
+
+#: includes/function.front.php:344
+msgid "Personal Info"
+msgstr ""
+
+#: includes/function.front.php:435 themes/campaign.php:94
+#: themes/list_campaigns-style2.php:97
+msgid "Donate"
+msgstr ""
+
+#: includes/function.front.php:460
+msgid "Purchase amount must be greater than 0"
+msgstr ""
+
+#: includes/function.front.php:493
+msgid "New order has been created"
+msgstr ""
+
+#: includes/function.front.php:496
+msgid "Can't send email to customer after creating order"
+msgstr ""
+
+#: includes/function.front.php:530
+msgid "Thanks for your donation!"
+msgstr ""
+
+#: includes/function.front.php:535
+msgid "Can't send email notice to custommer for ofline payment"
+msgstr ""
+
+#: includes/function.front.php:547
+msgid "An error occurred in order progress, please contact site admin"
+msgstr ""
+
+#: includes/function.front.php:617
+#, php-format
+msgid "Can't connect to PayPal to validate IPN message: %s"
+msgstr ""
+
+#: includes/function.front.php:640
+#, php-format
+msgid "Order %s has been changed status to Completed Paid"
+msgstr ""
+
+#: includes/function.front.php:640 includes/function.front.php:642
+#: includes/function.front.php:649 includes/function.front.php:651
+#: includes/function.front.php:660 includes/function.front.php:662
+#: includes/function.front.php:670 includes/function.front.php:672
+#: includes/views/payment.list.php:100 includes/views/payment.list.php:106
+msgid "View order"
+msgstr ""
+
+#: includes/function.front.php:649
+#, php-format
+msgid "Order %s has been changed status to Pending"
+msgstr ""
+
+#: includes/function.front.php:660
+#, php-format
+msgid "Order %s was refunded, Status was changed to cancel"
+msgstr ""
+
+#: includes/function.front.php:670
+#, php-format
+msgid "Order %s has been changed status to Onhold"
+msgstr ""
+
+#: includes/function.front.php:750
+msgid "New volunteer has been added"
+msgstr ""
+
+#: includes/function.front.php:751
+msgid "Thanks for signing up as a Volunteer. We will contact you soon."
+msgstr ""
+
+#: includes/function.front.php:753
+msgid "Can't add new volunteer in Volunteer register form"
+msgstr ""
+
+#: includes/function.front.php:754 includes/function.front.php:758
+msgid "Sorry, can't register volunteer now. Please come back again."
+msgstr ""
+
+#: includes/function.front.php:757
+msgid "Can't add new member in Volunteer register form"
+msgstr ""
+
+#: includes/themes/taxonomy-infunding_category.php:27
+msgid "No file exists"
+msgstr ""
+
+#: includes/utility.php:37
+msgid "Select all"
+msgstr ""
+
+#: includes/utility.php:40 includes/utility.php:58
+msgid "Select category"
+msgstr ""
+
+#: includes/utility.php:334
+msgid "Thanks for donate"
+msgstr ""
+
+#: includes/utility.php:359
+msgid "The email has been sent"
+msgstr ""
+
+#: includes/utility.php:362
+msgid "Can't send email to donor when donate, please check settings or code."
+msgstr ""
+
+#: includes/utility.php:363
+msgid "Can't send email present"
+msgstr ""
+
+#: includes/utility.php:394
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: includes/utility.php:395
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/utility.php:396
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: includes/utility.php:397
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/utility.php:398
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: includes/utility.php:399
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/utility.php:400
+msgid "Chilean Peso"
+msgstr ""
+
+#: includes/utility.php:401
+msgid "Chinese Yuan"
+msgstr ""
+
+#: includes/utility.php:402
+msgid "Colombian Peso"
+msgstr ""
+
+#: includes/utility.php:403
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/utility.php:404
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/utility.php:405
+msgid "Dominican Peso"
+msgstr ""
+
+#: includes/utility.php:406
+msgid "Euros"
+msgstr ""
+
+#: includes/utility.php:407
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/utility.php:408
+msgid "Croatia kuna"
+msgstr ""
+
+#: includes/utility.php:409
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/utility.php:410
+msgid "Icelandic krona"
+msgstr ""
+
+#: includes/utility.php:411
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: includes/utility.php:412
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/utility.php:413
+msgid "Nepali Rupee"
+msgstr ""
+
+#: includes/utility.php:414
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/utility.php:415
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/utility.php:416
+msgid "Lao Kip"
+msgstr ""
+
+#: includes/utility.php:417
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/utility.php:418
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: includes/utility.php:419
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/utility.php:420
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/utility.php:421
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/utility.php:422
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/utility.php:423
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: includes/utility.php:424
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/utility.php:425
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/utility.php:426
+msgid "Pounds Sterling"
+msgstr ""
+
+#: includes/utility.php:427
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/utility.php:428
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/utility.php:429
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/utility.php:430
+msgid "South African rand"
+msgstr ""
+
+#: includes/utility.php:431
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/utility.php:432
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/utility.php:433
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: includes/utility.php:434
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/utility.php:435
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/utility.php:436
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: includes/utility.php:437
+msgid "US Dollars"
+msgstr ""
+
+#: includes/utility.php:438
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: includes/utility.php:439
+msgid "Egyptian Pound"
+msgstr ""
+
+#: includes/utility.php:640
+msgid "Free"
+msgstr ""
+
+#: includes/utility.php:677
+msgid "Reard More"
+msgstr ""
+
+#: includes/utility.php:828
+msgid "<"
+msgstr ""
+
+#: includes/utility.php:829
+msgid ">"
+msgstr ""
+
+#: includes/utility.php:858
+msgid "Enter your keywords"
+msgstr ""
+
+#: includes/utility.php:872
+msgid "Remaing Day"
+msgstr ""
+
+#: includes/utility.php:874
+msgid "Funded Amount"
+msgstr ""
+
+#: includes/utility.php:875
+msgid "Created"
+msgstr ""
+
+#: includes/utility.php:876
+msgid "Last Modified"
+msgstr ""
+
+#: includes/views/logs.list.php:28 includes/views/logs.list.php:68
+#: includes/views/logs.view.php:78 includes/views/member.list.php:29
+#: includes/views/member.list.php:68 includes/views/payment.list.php:29
+#: includes/views/payment.list.php:105 includes/views/volunteer.list.php:29
+#: includes/views/volunteer.list.php:68
+msgid "Delete"
+msgstr ""
+
+#: includes/views/logs.list.php:29
+msgid "Clear Logs"
+msgstr ""
+
+#: includes/views/logs.list.php:37 includes/views/member.list.php:37
+#: includes/views/payment.list.php:77 includes/views/volunteer.list.php:37
+msgid "Select All"
+msgstr ""
+
+#: includes/views/logs.list.php:42 includes/views/logs.view.php:46
+#: includes/views/volunteer.edit.php:178
+msgid "Message"
+msgstr ""
+
+#: includes/views/logs.list.php:43
+msgid "Time"
+msgstr ""
+
+#: includes/views/logs.list.php:44 includes/views/logs.view.php:62
+msgid "Link"
+msgstr ""
+
+#: includes/views/logs.list.php:63 includes/views/logs.list.php:67
+msgid "View item"
+msgstr ""
+
+#: includes/views/logs.list.php:67 includes/views/payment.list.php:106
+msgid "View"
+msgstr ""
+
+#: includes/views/logs.list.php:68
+msgid "Delete log"
+msgstr ""
+
+#: includes/views/logs.list.php:94 includes/views/member.list.php:85
+#: includes/views/payment.list.php:163 includes/views/volunteer.list.php:85
+msgid "No result"
+msgstr ""
+
+#: includes/views/logs.view.php:24
+msgid "Log detail"
+msgstr ""
+
+#: includes/views/logs.view.php:30
+msgid "ID"
+msgstr ""
+
+#: includes/views/logs.view.php:38
+msgid "Log type"
+msgstr ""
+
+#: includes/views/logs.view.php:54
+msgid "Log time"
+msgstr ""
+
+#: includes/views/logs.view.php:79 includes/views/payment.edit.php:169
+#: includes/views/payment.view.php:128
+msgid "Back to list"
+msgstr ""
+
+#: includes/views/member.edit.php:31 includes/views/volunteer.edit.php:31
+msgid "Edit member"
+msgstr ""
+
+#: includes/views/member.edit.php:57 includes/views/payment.edit.php:138
+#: includes/views/settings.php:356 includes/views/volunteer.edit.php:57
+msgid "Checked"
+msgstr ""
+
+#: includes/views/member.edit.php:58 includes/views/payment.edit.php:139
+#: includes/views/settings.php:357 includes/views/volunteer.edit.php:58
+msgid "Unchecked"
+msgstr ""
+
+#: includes/views/member.edit.php:78 includes/views/payment.edit.php:170
+#: includes/views/volunteer.edit.php:156
+msgid "Save Update"
+msgstr ""
+
+#: includes/views/member.list.php:44 includes/views/volunteer.list.php:44
+msgid "Action"
+msgstr ""
+
+#: includes/views/member.list.php:67 includes/views/volunteer.list.php:67
+msgid "Edit this member"
+msgstr ""
+
+#: includes/views/member.list.php:67 includes/views/payment.list.php:104
+#: includes/views/volunteer.list.php:67
+msgid "Edit"
+msgstr ""
+
+#: includes/views/member.list.php:68 includes/views/volunteer.list.php:68
+msgid "Delete this member"
+msgstr ""
+
+#: includes/views/payment.edit.php:27 includes/views/payment.view.php:129
+msgid "Edit order"
+msgstr ""
+
+#: includes/views/payment.edit.php:32 includes/views/payment.view.php:33
+#: includes/views/settings.php:270 includes/views/settings.php:386
+msgid "Order"
+msgstr ""
+
+#: includes/views/payment.edit.php:40 includes/views/payment.view.php:41
+msgid "Total Price"
+msgstr ""
+
+#: includes/views/payment.edit.php:48 includes/views/payment.view.php:49
+msgid "Created Time"
+msgstr ""
+
+#: includes/views/payment.edit.php:93
+msgid "Send email notice to customer"
+msgstr ""
+
+#: includes/views/payment.edit.php:98
+msgid "Reason change status"
+msgstr ""
+
+#: includes/views/payment.edit.php:105 includes/views/payment.view.php:98
+msgid "Member Info"
+msgstr ""
+
+#: includes/views/payment.edit.php:160 includes/views/payment.view.php:122
+msgid "Anonymous donor"
+msgstr ""
+
+#: includes/views/payment.list.php:26
+msgid "Orders"
+msgstr ""
+
+#: includes/views/payment.list.php:30
+msgid "Kill Order Expired"
+msgstr ""
+
+#: includes/views/payment.list.php:34
+msgid "Filter"
+msgstr ""
+
+#: includes/views/payment.list.php:36
+msgid "Input keyword to search"
+msgstr ""
+
+#: includes/views/payment.list.php:50
+msgid "Any"
+msgstr ""
+
+#: includes/views/payment.list.php:56
+msgid "All"
+msgstr ""
+
+#: includes/views/payment.list.php:58
+msgid "Completed"
+msgstr ""
+
+#: includes/views/payment.list.php:67
+msgid "Search"
+msgstr ""
+
+#: includes/views/payment.list.php:80
+msgid "Order #"
+msgstr ""
+
+#: includes/views/payment.list.php:81 includes/views/volunteer.edit.php:174
+#: themes/volunteer_register.php:94
+msgid "Campaign"
+msgstr ""
+
+#: includes/views/payment.list.php:82
+msgid "Member"
+msgstr ""
+
+#: includes/views/payment.list.php:104
+msgid "Edit this item"
+msgstr ""
+
+#: includes/views/payment.list.php:105
+msgid "Delete this order"
+msgstr ""
+
+#: includes/views/payment.view.php:26
+msgid "Order Detail"
+msgstr ""
+
+#: includes/views/payment.view.php:131 includes/views/payment.view.php:133
+msgid "Resend email"
+msgstr ""
+
+#: includes/views/payment.view.php:147
+msgid "Your donate has completed. Thanks for donate with us"
+msgstr ""
+
+#: includes/views/payment.view.php:149
+msgid "Your donate don't completed."
+msgstr ""
+
+#: includes/views/settings.php:95
+msgid "General"
+msgstr ""
+
+#: includes/views/settings.php:98
+msgid "Registration form"
+msgstr ""
+
+#: includes/views/settings.php:101
+msgid "Payment"
+msgstr ""
+
+#: includes/views/settings.php:104
+msgid "Message template"
+msgstr ""
+
+#: includes/views/settings.php:126
+msgid "Currency for payment"
+msgstr ""
+
+#: includes/views/settings.php:131
+msgid "Currency Position"
+msgstr ""
+
+#: includes/views/settings.php:136
+msgid "Left"
+msgstr ""
+
+#: includes/views/settings.php:137
+msgid "Left with space"
+msgstr ""
+
+#: includes/views/settings.php:138
+msgid "Right"
+msgstr ""
+
+#: includes/views/settings.php:139
+msgid "Right with space"
+msgstr ""
+
+#: includes/views/settings.php:145
+msgid "Currency position"
+msgstr ""
+
+#: includes/views/settings.php:150
+msgid "Campaign slug"
+msgstr ""
+
+#: includes/views/settings.php:156
+msgid "Slug for Campaign"
+msgstr ""
+
+#: includes/views/settings.php:161
+msgid "Category slug"
+msgstr ""
+
+#: includes/views/settings.php:167
+msgid "Slug for campaign category"
+msgstr ""
+
+#: includes/views/settings.php:172
+msgid "Tag slug"
+msgstr ""
+
+#: includes/views/settings.php:178
+msgid "Slug for campaign tag"
+msgstr ""
+
+#: includes/views/settings.php:183 includes/views/settings.php:196
+msgid "Payment page"
+msgstr ""
+
+#: includes/views/settings.php:201
+msgid "Payment check page"
+msgstr ""
+
+#: includes/views/settings.php:209
+msgid "Page to check status of order"
+msgstr ""
+
+#: includes/views/settings.php:214 includes/views/settings.php:222
+msgid "Member page"
+msgstr ""
+
+#: includes/views/settings.php:227
+msgid "Google API"
+msgstr ""
+
+#: includes/views/settings.php:233
+msgid ""
+"API to use google map embed. To get Google api, you can access via <a target="
+"\"_blank\" href=\"https://console.developers.google.com/\">here</a>"
+msgstr ""
+
+#: includes/views/settings.php:238
+msgid "Map Zoom Level"
+msgstr ""
+
+#: includes/views/settings.php:244
+msgid "Google map zoom level init value"
+msgstr ""
+
+#: includes/views/settings.php:249
+msgid "Allow anonymous donation"
+msgstr ""
+
+#: includes/views/settings.php:257
+msgid "Show/Hide anonymous donation field on donate form"
+msgstr ""
+
+#: includes/views/settings.php:267
+msgid "Field manager"
+msgstr ""
+
+#: includes/views/settings.php:271 includes/views/settings.php:387
+msgid "Label"
+msgstr ""
+
+#: includes/views/settings.php:272 includes/views/settings.php:388
+msgid "Name"
+msgstr ""
+
+#: includes/views/settings.php:273 includes/views/settings.php:389
+msgid "Group"
+msgstr ""
+
+#: includes/views/settings.php:274 includes/views/settings.php:390
+msgid "Type"
+msgstr ""
+
+#: includes/views/settings.php:275 includes/views/settings.php:391
+msgid "Values"
+msgstr ""
+
+#: includes/views/settings.php:276 includes/views/settings.php:392
+msgid "Default Value"
+msgstr ""
+
+#: includes/views/settings.php:277 includes/views/settings.php:393
+msgid "Show on List"
+msgstr ""
+
+#: includes/views/settings.php:277 includes/views/settings.php:393
+msgid "SL"
+msgstr ""
+
+#: includes/views/settings.php:278 includes/views/settings.php:394
+msgid "Require Field"
+msgstr ""
+
+#: includes/views/settings.php:278 includes/views/settings.php:394
+msgid "RF"
+msgstr ""
+
+#: includes/views/settings.php:279 includes/views/settings.php:395
+msgid "Actions"
+msgstr ""
+
+#: includes/views/settings.php:324
+msgid "Multiple value with new line"
+msgstr ""
+
+#: includes/views/settings.php:330
+msgid "No default value for this field type."
+msgstr ""
+
+#: includes/views/settings.php:376
+msgid "Remove"
+msgstr ""
+
+#: includes/views/settings.php:400
+msgid "Add new field"
+msgstr ""
+
+#: includes/views/settings.php:412
+msgid "PAYPAL"
+msgstr ""
+
+#: includes/views/settings.php:419
+msgid "example@domain.com"
+msgstr ""
+
+#: includes/views/settings.php:422
+msgid "Paypal email to use in payment"
+msgstr ""
+
+#: includes/views/settings.php:427
+msgid "Test mode"
+msgstr ""
+
+#: includes/views/settings.php:436
+msgid "Enable test mode for paypal checkout"
+msgstr ""
+
+#: includes/views/settings.php:445 includes/views/settings.php:473
+msgid "Disable"
+msgstr ""
+
+#: includes/views/settings.php:446 includes/views/settings.php:474
+msgid "Enable"
+msgstr ""
+
+#: includes/views/settings.php:450 includes/views/settings.php:478
+msgid "Enable or disable this payment method"
+msgstr ""
+
+#: includes/views/settings.php:454
+msgid "OFFLINE PAYMENT"
+msgstr ""
+
+#: includes/views/settings.php:458 includes/views/settings.php:512
+#: includes/views/settings.php:553 includes/views/settings.php:595
+msgid "Content"
+msgstr ""
+
+#: includes/views/settings.php:461
+msgid "Some text about Offline Payment"
+msgstr ""
+
+#: includes/views/settings.php:464
+msgid "Some content about custom payment"
+msgstr ""
+
+#: includes/views/settings.php:490
+msgid "ORDER INFO"
+msgstr ""
+
+#: includes/views/settings.php:505 includes/views/settings.php:546
+#: includes/views/settings.php:588
+msgid "Email title"
+msgstr ""
+
+#: includes/views/settings.php:516
+msgid "Email content to send to customer when order success"
+msgstr ""
+
+#: includes/views/settings.php:519 includes/views/settings.php:560
+#: includes/views/settings.php:602
+msgid "Variables"
+msgstr ""
+
+#: includes/views/settings.php:520 includes/views/settings.php:561
+#: includes/views/settings.php:603
+msgid "Name of site"
+msgstr ""
+
+#: includes/views/settings.php:521
+msgid "name of user or customer"
+msgstr ""
+
+#: includes/views/settings.php:522
+msgid "Order link view"
+msgstr ""
+
+#: includes/views/settings.php:531
+msgid "REGISTRATION SUCCESS"
+msgstr ""
+
+#: includes/views/settings.php:557 includes/views/settings.php:599
+msgid "Email content"
+msgstr ""
+
+#: includes/views/settings.php:562 includes/views/settings.php:604
+msgid "Name of user or customer"
+msgstr ""
+
+#: includes/views/settings.php:563
+msgid "User information"
+msgstr ""
+
+#: includes/views/settings.php:564
+msgid "User status"
+msgstr ""
+
+#: includes/views/settings.php:573
+msgid "CHANGING ORDER STATUS"
+msgstr ""
+
+#: includes/views/settings.php:605
+msgid "Link to order information"
+msgstr ""
+
+#: includes/views/settings.php:606
+msgid "New Order status"
+msgstr ""
+
+#: includes/views/settings.php:607
+msgid "Status change reason"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:75
+msgid "Social profile"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:85
+msgid "Facebook"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:93
+msgid "Youtube"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:101
+msgid "Vimeo"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:109
+msgid "Flickr"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:117
+msgid "Google Plus"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:125
+msgid "Linked In"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:133
+msgid "Tumblr"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:141
+msgid "Twitter"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:163
+msgid "Volunteers Register"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:175
+msgid "Date start"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:176
+msgid "Date end"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:177
+msgid "Date register"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:180
+msgid "Accept"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:192
+msgid "No Accept"
+msgstr ""
+
+#: includes/views/volunteer.edit.php:198
+msgid "No volunteer found for this memeber"
+msgstr ""
+
+#: infunding.php:60
+msgid "Setting Now"
+msgstr ""
+
+#: themes/campaign.php:74 themes/list_campaigns-slider-v2.php:111
+#: themes/list_campaigns-slider-v3.php:112
+msgid "raised"
+msgstr ""
+
+#: themes/campaign.php:85
+msgid "Day left"
+msgstr ""
+
+#: themes/campaign.php:86 themes/list_campaigns-style1.php:92
+#, php-format
+msgid "%s day(s) to start"
+msgstr ""
+
+#: themes/campaign.php:86 themes/list_campaigns-style1.php:92
+#, php-format
+msgid "%s day(s) to end"
+msgstr ""
+
+#: themes/campaign.php:86 themes/list_campaigns-style1.php:92
+msgid "ENDED"
+msgstr ""
+
+#: themes/campaign.php:107
+msgid "Campaign description"
+msgstr ""
+
+#: themes/campaign.php:167
+msgid "Campaign Information"
+msgstr ""
+
+#: themes/campaign.php:186
+msgid "Category"
+msgstr ""
+
+#: themes/campaign.php:190
+msgid "Cause status"
+msgstr ""
+
+#: themes/campaign.php:201
+msgid "Latest donors"
+msgstr ""
+
+#: themes/campaign.php:212
+msgid "No Name"
+msgstr ""
+
+#: themes/campaign.php:212
+msgid "Anonymous"
+msgstr ""
+
+#: themes/campaign.php:233
+msgid "Related Campaigns"
+msgstr ""
+
+#: themes/list_campaigns-slider-v2.php:85
+#: themes/list_campaigns-slider-v3.php:86
+msgid "Featured campaigns"
+msgstr ""
+
+#: themes/list_campaigns-slider-v2.php:105
+#: themes/list_campaigns-slider-v3.php:106 themes/list_campaigns-slider.php:103
+msgid "donated"
+msgstr ""
+
+#: themes/list_campaigns-slider-v2.php:113
+#: themes/list_campaigns-slider-v3.php:114
+msgid "goal"
+msgstr ""
+
+#: themes/list_campaigns-slider-v2.php:117
+#: themes/list_campaigns-slider-v3.php:118 themes/list_campaigns-slider.php:113
+msgid "donate"
+msgstr ""
+
+#: themes/list_campaigns-slider.php:106
+msgid "to go"
+msgstr ""
+
+#: themes/list_campaigns-style1.php:89
+#, php-format
+msgid "%s&percnt; funded"
+msgstr ""
+
+#: themes/list_campaigns-style1.php:92
+#, php-format
+msgid "Goal: %s"
+msgstr ""
+
+#: themes/list_campaigns-style2.php:78
+#, php-format
+msgid "<span>Donated</span> %s&percnt;"
+msgstr ""
+
+#: themes/list_campaigns-style2.php:84
+msgid "Raised"
+msgstr ""
+
+#: themes/list_campaigns.php:66
+msgid "No campaign found"
+msgstr ""
+
+#: themes/volunteer_register.php:103 themes/volunteer_register.php:106
+msgid "Date Start"
+msgstr ""
+
+#: themes/volunteer_register.php:111 themes/volunteer_register.php:113
+msgid "Date End"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://crowdfunding.inwavethemes.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Inwavethemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.inwavethemes.com"
+msgstr ""

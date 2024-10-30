@@ -1,0 +1,431 @@
+/*
+@package Inwave Directory
+@version 1.0.0
+@created May 11, 2015
+@author Inwavethemes
+@email inwavethemes@gmail.com
+@website http://inwavethemes.com
+@support Ticket https://inwave.ticksy.com/
+@copyright Copyright (c) 2015 Inwavethemes. All rights reserved.
+@license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+
+*/
+/* 
+    Created on : May 11, 2015, 5:26:30 PM
+    Developer     : duongca
+*/
+/*Message*/
+.in-message {
+    border: 1px solid;
+    border-left: solid 4px;
+    margin: 15px 0px !important;
+    padding: 10px !important;
+}
+.in-message .message-text{
+    margin-left: 35px;
+}
+
+.in-message.success {
+    border-color: #1e6a8d;
+    background: url('../images/success.png') no-repeat 10px center #a7cce5;
+}
+.in-message.error {
+    border-color: #dd3d36;
+    background: url('../images/error.png') no-repeat 10px center #F2DEDE;
+}
+.in-message.notice {
+    border-color: #c0cd7b;
+    background: url('../images/notice.png') no-repeat 10px center #fff9c0;
+}
+
+/*End message style*/
+
+.the-list input,
+.the-list select,
+.the-list textarea,
+.list-table{
+    width: 100%;
+}
+.list-table td {
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+.list-table thead, .list-table tfoot{
+    background: #ABB9CD;
+    color: #fff;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+.list-table .description{
+    font-size: 12px;
+    color: #CDCDCD;
+    font-style: italic;
+    line-height: initial;
+}
+
+.iw-hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.ui-datepicker-header{
+    background: #23282D;
+    padding: 2px 10px;
+}
+.ui-datepicker-header a span{
+    cursor: pointer;
+    margin-right: 10px;
+}
+table.ui-datepicker-calendar {
+    background: none repeat scroll 0 0 gray;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.iw-tabs{
+    position: relative;
+    border: solid 1px #e0e0e0;
+}
+
+.iw-tabs .iw-tab-icon{
+    margin-right: 10px;
+}
+.iw-tabs .iw-tab-title{
+    display: inline-block;
+}
+
+.iw-tabs .iw-tab-items{
+    width: 30%;
+    min-width: 200px;
+    float: left;
+    border-right: 1px solid #e0e0e0;
+}
+
+.iw-tabs .iw-tab-item{
+    cursor: pointer;
+    font-size: 15px;
+}
+.iw-tabs .iw-tab-content{
+    float: left;
+    padding: 10px 30px;
+    width: calc(70% - 61px);
+}
+
+@media screen and (max-width: 700px) {
+    .iw-tabs .iw-tab-items{
+        width: 100%;
+        border-right: hidden;
+    }
+
+    .iw-tabs .iw-tab-content{
+        width: calc(100% - 61px);
+    }
+}
+
+.iw-tabs .iw-tab-items .iw-tab-item {
+    padding: 10px 35px;
+    border-bottom: 1px solid #e0e0e0;
+    background: #FBFBFB;
+}
+.iw-tabs .iw-tab-items .iw-tab-item:hover, .iw-tabs .iw-tab-items .iw-tab-item.active {
+    color: #2ba53c;
+}
+
+.layout2.iw-tabs .iw-tab-items::before{
+    content: "";
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-top: solid 4px #2ba53c;
+}
+.layout2.iw-tabs .iw-tab-items{
+    box-shadow: none;
+    border: 0;
+    color: #FFFFFF;
+    background: #2ba53c;
+    width: auto;
+    float: none;
+}
+.layout2 .iw-tab-items .iw-tab-title{
+    padding: 3px 10px 3px 0;
+    border-right: solid 1px #E0E0E0;
+}
+.layout2 .iw-tab-item{
+    display: inline-block;
+    padding: 0 0 0 10px!important;
+    position: relative;
+    font-weight: bold;
+    line-height: 40px;
+    border-width: 4px 0 0 0 !important;
+    border-color: #2ba53c;
+    background: transparent!important;
+    border-style: solid;
+    float: left;
+}
+.layout2 .iw-tab-item:hover, 
+.layout2 .iw-tab-item.active {
+    color: #2ba53c;
+    background: #FFFFFF!important;
+}
+.layout2 .iw-tab-content {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.layout2 .payment-setting-wrap th{
+    height: 35px;
+    padding-left: 20px;
+}
+.layout2 .payment-setting-wrap td{
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.iw-tab-item-content .the-list input,
+.iw-tab-item-content .the-list select,
+.iw-tab-item-content .the-list textarea,
+.iwe-wrap .the-list input,
+.iwe-wrap .the-list select,
+.iwe-wrap .the-list textarea,
+.iwe-wrap .list-table,
+.iw-tab-item-content .list-table{
+    width: 100%;
+}
+.iw-tab-item-content .list-table td {
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+.iw-tab-item-content .list-table thead,
+.iw-tab-item-content .list-table tr.t-heading,
+.iw-tab-item-content .list-table tfoot{
+    background: #ABB9CD;
+    color: #fff;
+    font-weight: bold;
+    font-stretch: expanded;
+    text-align: left;
+}
+
+.iw-tab-item-content .list-table td label{
+    margin-left: 20px;
+}
+.iw-tab-item-content .description,
+.iwe-wrap .description{
+    font-size: 12px;
+    color: #CDCDCD;
+    font-style: italic;
+    line-height: initial;
+}
+
+.iw-tab-content .button-add-field{
+    margin-top: 10px;
+}
+
+/*//Accordion*/
+
+.iw-tabs .iw-accordion-header-icon,
+.iw-tabs .iw-accordion-time-header-icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.iw-tabs .iw-accordion-header,
+.iw-tabs .iw-accordion-time-header{
+    position: relative;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.iw-tabs .iw-accordion-title,
+.iw-tabs .iw-accordion-time-title{
+    display: inline-block;
+}
+
+.iw-tabs .iw-accordion-header:hover, .iw-tabs .iw-accordion-header.active,
+.iw-tabs .iw-accordion-time-header:hover, .iw-tabs .iw-accordion-time-header.active{
+    color: #ffffff;
+    background: #2ba53c;
+} 
+
+.iw-tabs .iw-accordion-item,
+.iw-tabs .iw-accordion-time-item{
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.iw-tabs .iw-accordion-icon,
+.iw-tabs .iw-accordion-item-icon{
+    margin-right: 15px;
+}
+
+.iw-tabs .no-expand{
+    color:#2ba53c;
+}
+
+.iw-tabs .iw-accordion-content{
+    padding: 10px 20px;
+    background: #f9f9f9;
+}
+.iw-tabs .iw-accordion-time-content{
+    padding: 10px;
+}
+.iw-tabs.accordion{
+    border: none;
+}
+
+.ui-datepicker-header{
+    background: #23282D;
+    padding: 2px 10px;
+}
+.ui-datepicker-header a span{
+    cursor: pointer;
+    margin-right: 10px;
+}
+table.ui-datepicker-calendar {
+    background: none repeat scroll 0 0 gray;
+    color: #fff;
+    padding: 0 10px;
+}
+
+
+/*List image*/
+.list-image-gallery .iw-image-item{
+    float: left;
+    margin: 0 10px 10px 0;
+    position: relative;
+    width: 23%;
+    min-width: 150px;
+    max-height: 130px;
+    overflow: hidden;
+    background: #333;
+}
+.list-image-gallery .iw-image-item img{
+    width: 100%;
+
+}
+
+.list-image-gallery .action-overlay {
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+.list-image-gallery .action-overlay:hover {
+    opacity: 1;
+}
+
+.list-image-gallery .remove-image{
+    background: none repeat scroll 0 0 #fff;
+    cursor: pointer;
+    padding: 0 6px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+.list-image-gallery .remove-image:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.iwe-image-field div{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #dfdfdf;
+    margin-right: 5px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    color: #1ED200;
+}
+
+.iwe-image-field div:hover{
+    border-color: #c8c8c8;
+}
+.iwe-image-field div.image-add-image{
+    cursor: pointer;
+    background: #f5f5f5;
+}
+
+.iwe-image-field div.image-add-image span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.iwe-image-field div.image-preview span {
+    background: none repeat scroll 0 0 #fff;
+    color: red;
+    cursor: pointer;
+    padding: 0 5px;
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.iwe-image-field div.image-preview .close-overlay {
+    z-index: 1;
+    opacity: 0;
+    transition: all linear 0.5s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.iwe-image-field div.image-preview .close-overlay:hover {
+    opacity: 1;
+}
+.iwe-image-field div.image-preview img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.select2-container{
+    width: 100% !important;
+}
+
+.iwe-field-manager.list-table td{
+    padding-bottom: 0;
+}
+
+.iwe-wrap input[type="submit"], .iwe-save-settings input[type="submit"]{
+    width: auto;
+    min-width: 150px !important;
+}
+
+.iwe-wrap .pagination{
+    padding:  10px;
+}
+
+.iwe-wrap .pagination span{
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background: #0073aa;
+    border: solid 1px #0073aa;
+    margin-right: 4px;
+    float: left;
+}
+
+.iwe-wrap .pagination a{
+    padding:  5px 10px;
+    text-align: center;
+    border: solid 1px;
+    float: left;
+    margin-right: 4px;
+}
+.iwe-filter .alignleft{
+	min-width:200px;
+	margin-right:5px;
+}
+
+.iw-tab-item-content .form-error{
+    border-color: red;
+}

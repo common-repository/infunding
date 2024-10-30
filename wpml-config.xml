@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">inf_image_gallery</custom-field>
+        <custom-field action="translate">inf_start_date</custom-field>
+        <custom-field action="translate">inf_end_date</custom-field>
+        <custom-field action="translate">inf_address</custom-field>
+        <custom-field action="translate">inf_goal</custom-field>
+        <custom-field action="translate">inf_current</custom-field>
+        <custom-field action="translate">inf_currency</custom-field>
+        <custom-field action="translate">map_pos</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">infunding</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">infunding_category</taxonomy>
+        <taxonomy translate="1">infunding_tag</taxonomy>
+    </taxonomies>
+</wpml-config>
